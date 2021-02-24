@@ -1,0 +1,2 @@
+# Activity - Get Coffee Layout
+
