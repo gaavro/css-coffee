@@ -1,0 +1,125 @@
+/*
+Theme Name: Get.coffee
+Theme URI: https://get.coffee.com.br/
+Author: Kenzie Academy 
+Author URI: https://kenzie.com.br/
+Description: Descrção do thema.
+Version: 1.0
+Text Domain: https://kenzie.com.br/
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+​Activity - Get Coffee Layout
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+
+/* FONTS​ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');/* FONTS​ */
+
+/* VARIÁVEIS */
+:root{}
+/* VARIÁVEIS */
+  
+  
+/* GERAL */
+html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* GERAL */
+  
+/* HTML */
+html{}
+/* HTML */
+  
+/* BODY */
+body{}
+/* BODY */
+  
+
+/* HEADER */
+header{}
+/* HEADER */
+  
+
+/* FOOTER */
+footer{}
+/* FOOTER */
+
+  
+/* INICIAL */
+main{}
+
+main>a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: center;
+    max-width: 110px;
+    margin: 0 auto;
+    position: relative;
+}
+    main>a::before{
+        content: "";
+        display: block;
+        width: 4px;
+        height: 7px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main>a::after{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 35px;
+        background: #FCA60F;
+        border-radius: 50px;
+        margin: 9px auto 0;
+
+    }
+
+/* INICIAL */
+  
+
+/* EXTRAS */
+
+/* para estilizar a scrollbar */
+::-webkit-scrollbar{}
+::-webkit-scrollbar-button{}
+::-webkit-scrollbar-track{}
+::-webkit-scrollbar-track-piece{}
+::-webkit-scrollbar-thumb{}
+::-webkit-scrollbar-corner{}
+::-webkit-resizer{}
+/* EXTRAS */
+  
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 400px){}
+
+@media screen and (min-width: 800px){}
+/* MEDIA QUERIES */

@@ -1,2 +1,94 @@
-# Activity - Get Coffee Layout
+# Atividade - Get Coffee Layout
 
+Agora você irá criar uma página HTML replicando o design exibido abaixo: Página inicial do site Get Coffee. Use o que você aprendeu sobre os modelos de caixa e sobre como posicionar elementos usando CSS.
+
+Para resolver essa atividade, você vai acessar esse [repositório](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-get-coffee-layout) e fazer o fork do projeto.
+
+Faças as alterações no arquivo css para praticar!
+
+
+# Mockup:
+
+- [Mockup - Desktop](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-get-coffee-layout/-/raw/master/Mockup-desktop.png)
+- [Mockup - Mobile](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-get-coffee-layout/-/raw/master/Mockup-mobile.png)
+
+---
+
+# Dicas:
+
+## Fontes:
+
+`<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">`
+
+- font-family: `'Nunito', sans-serif`
+
+---
+
+## Cores/Fontes:
+
+`:root{`
+    
+    --coresTexto: #242424 
+    --coresSecundaria: #FCA60F
+    --fontSizePrimaria: 18px
+    --fontSizeSecundaria: 36px
+`}`
+
+## Dicas:
+
+- __Sombra Header__
+
+`header{`
+    `box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);`
+`}`
+
+- __Como fazer o Link scroll down__
+
+---
+
+HTML do link:
+
+`<a href="#" class="scrollDown">scroll down</a>`
+
+CSS para fazer o link: 
+
+`a{`
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: center;
+    max-width: 110px;
+    margin: 0 auto;
+    position: relative;
+`}`
+
+
+`a::before{`
+
+    width: 4px;
+    height: 7px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+`}`
+
+
+`a::after{`
+
+    content: "";
+    display: block;
+    width: 20px;
+    height: 35px;
+    background: #FCA60F;
+    border-radius: 50px;
+    margin: 9px auto 0;
+`}`
