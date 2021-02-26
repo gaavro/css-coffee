@@ -11,11 +11,11 @@ Faças as alterações no arquivo css para praticar!
 
 <!-- ![Mockup - Desktop](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee2.png) -->
 
-[Ver em tela cheia](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee2.png)
+[Desktop](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee2.png)
 
 <!-- ![Mockup - Mobile](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee1.png) -->
 
-[Ver em tela cheia](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee1.png)
+[Mobile](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee1.png)
 
 ---
 
