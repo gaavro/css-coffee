@@ -42,9 +42,11 @@ Faças as alterações no arquivo css para praticar!
 
 - __Sombra Header__
 
-`header{`
-    `box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);`
-`}`
+```css
+header{
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+```
 
 - __Como fazer o Link scroll down__
 
@@ -56,7 +58,8 @@ HTML do link:
 
 CSS para fazer o link: 
 
-`a{`
+```css
+a{
 
     font-weight: bold;
     font-size: 18px;
@@ -68,10 +71,11 @@ CSS para fazer o link:
     max-width: 110px;
     margin: 0 auto;
     position: relative;
-`}`
+}
+```
 
-
-`a::before{`
+```css
+a::before{
 
     width: 4px;
     height: 7px;
@@ -83,10 +87,11 @@ CSS para fazer o link:
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
-`}`
+}
+```
 
-
-`a::after{`
+```css
+a::after{
 
     content: "";
     display: block;
@@ -95,4 +100,5 @@ CSS para fazer o link:
     background: #FCA60F;
     border-radius: 50px;
     margin: 9px auto 0;
-`}`
+}
+```
