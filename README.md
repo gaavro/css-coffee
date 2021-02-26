@@ -9,8 +9,11 @@ Faças as alterações no arquivo css para praticar!
 
 # Mockup:
 
-- [Mockup - Desktop](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-get-coffee-layout/-/raw/master/Mockup-desktop.png)
-- [Mockup - Mobile](https://gitlab.com/kenzie-academy-brasil/se/fe/sprint-3-css-week/activity-get-coffee-layout/-/raw/master/Mockup-mobile.png)
+- ![Mockup - Desktop](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee2.png)
+- [Ver em tela cheia](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee2.png)
+
+- ![Mockup - Mobile](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee1.png)
+- [Ver em tela cheia](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/coffee1.png)
 
 ---
 
