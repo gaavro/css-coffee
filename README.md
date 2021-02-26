@@ -26,13 +26,17 @@ Faças as alterações no arquivo css para praticar!
 
 ## Cores/Fontes:
 
-`:root{`
+```css
+
+:root{
     --larguraContainerConteudo:1140px;
     --coresTexto: #242424 
     --coresSecundaria: #FCA60F
     --fontSizePrimaria: 18px
     --fontSizeSecundaria: 36px
-`}`
+}
+
+```
 
 ## Dicas:
 
