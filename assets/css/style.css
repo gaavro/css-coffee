@@ -27,7 +27,13 @@ font-family: 'Nunito', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');/* FONTS​ */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+    --larguraContainerConteudo:1140px;
+    --coresTexto: #242424 ;
+    --coresSecundaria: #FCA60F;
+    --fontSizePrimaria: 18px;
+    --fontSizeSecundaria: 36px;
+}
 /* VARIÁVEIS */
   
   
@@ -52,19 +58,63 @@ body{}
   
 
 /* HEADER */
-header{}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #242424;
+    font-size: 36px;
+}
+header{
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+div.col-flex-md-6{
+display: flex;
+justify-content: center;
+}
+.page_header_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    padding: 1em;
+}
+.page_header_menu ul{
+    display: flex;
+   
+}
+.page_header_menu a{
+    padding: 1.5em;
+    color: #242424;
+    font-weight: bold;
+}
 /* HEADER */
   
 
 /* FOOTER */
 footer{}
 /* FOOTER */
+.page_home_contant_copo img{
+   display: none;
+}
+.container-main{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 
+}
+h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif
+}
   
 /* INICIAL */
 main{}
 
-main>a{
+/* main>a{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -100,7 +150,76 @@ main>a{
         border-radius: 50px;
         margin: 9px auto 0;
 
+
+    } */
+    button {
+        margin-top: 100px;
+        outline: 0;
+        background-color: #FCA60F;
+        border: 0;
+        padding: 10px 15px;
+        color: #fff;
+        border-radius: 5px;
+        width: 175px;
+        cursor: pointer;
+        font-size: 18px;
+        border: 1px solid transparent;
+      }
+      button:hover {
+        color: #FCA60F;
+        background-color: #fff;
+        border: 1px solid #FCA60F;
+        transition-duration: 0.25s;
+        
+      }
+      svg{
+        display: inline-block;
+        font-size: inherit;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -.125em;
+      }
+    /* a{
+
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        text-align: center;
+        max-width: 110px;
+        margin: 0 auto;
+        position: relative;
+    } */
+    a::before{
+        font-weight: bold;
+        width: 4px;
+        height: 7px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
     }
+    .page_home_list_social{
+        display: flex;
+        flex-direction: row;
+        margin-top: 300px;
+    }
+    /* a::after{
+
+        content: "";
+        display: block;
+        width: 20px;
+        height: 35px;
+        background: #FCA60F;
+        border-radius: 50px;
+        margin: 9px auto 0;
+    } */
 
 /* INICIAL */
   
@@ -121,5 +240,53 @@ main>a{
 /* MEDIA QUERIES */
 @media screen and (min-width: 400px){}
 
-@media screen and (min-width: 800px){}
+@media screen and (min-width: 800px){
+   ul{
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+    }
+    .page_header_logo{
+        position: absolute;
+        left: 0;
+    }
+    .col-flex-md-6{
+        height: 30px;
+    }
+    .page_home_contant_copo img{
+        display:flex;
+        position: absolute;
+        right: 0;
+        top: 300px;
+    }
+    .page_home_contant{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    h2{
+        position: absolute;
+        left: 100px;
+        width: 45%;
+        text-align: left;
+        top: 400px;
+    }
+    .container-main{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+    .page_home_list_social{
+        position: absolute;
+        top: 300px;
+        left: -600px;;
+    }
+    
 /* MEDIA QUERIES */
